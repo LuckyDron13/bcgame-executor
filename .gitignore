@@ -1,0 +1,11 @@
+target/
+*.class
+*.jar
+*.log
+logs/
+.idea/
+*.iml
+.mvn/wrapper/maven-wrapper.jar
+.claude/settings.local.json
+cp.txt
+errors.txt

@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: bcgame-executor
+
+server:
+  port: 8083
+
+adspower:
+  enabled: true
+  url: http://local.adspower.net:50325
+  profile-ids:
+    - "k1ap28oe"
+    - "k1badndw"
+
+tg:
+  bot-token: "8503619675:AAEmjCI7O5HqBP7cMbrQh5NieYFnRcIOUVU"
+  chat-id: "-1003733983370"
+
+logging:
+  file:
+    name: logs/bcgame-executor.log
+  logback:
+    rollingpolicy:
+      max-file-size: 10MB
+      max-history: 7
+      file-name-pattern: logs/bcgame-executor.%d{yyyy-MM-dd}.%i.log
